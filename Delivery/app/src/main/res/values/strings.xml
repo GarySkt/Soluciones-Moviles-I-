@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Delivery</string>
+    <string name="tv_deliverytacna">Delivery Tacna</string>
+    <string name="tv_registrocliente">Registro Cliente</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="et_usuario">Usuario</string>
+    <string name="et_password">Contrasena</string>
+
+    <string name="et_nombre">Nombres</string>
+    <string name="et_apellido">Apellidos</string>
+    <string name="et_telefono">Nro. Celular</string>
+    <string name="et_nombredeusuario">Nombre de Usuario</string>
+    <string name="et_contrasena">Contrasena</string>
+    <string name="et_confirmarcontrasena">Confirmar Contrasena</string>
+    <string name="et_email">Correo Electronico</string>
+
+
+</resources>
