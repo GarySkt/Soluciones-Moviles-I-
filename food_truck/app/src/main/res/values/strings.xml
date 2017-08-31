@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food Truck</string>
+    <string name="tv_seleccionarpedido">Seleccione su Pedido:</string>
+    <string name="rb_sandwich">Sandwich</string>
+    <string name="rb_salchipapa">Salchipapa</string>
+    <string name="rb_pizza">Pizza</string>
+    <string name="rb_bebida">Bebida</string>
+    <string name="rb_hotdog">Hot Dog</string>
+</resources>
