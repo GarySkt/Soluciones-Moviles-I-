@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intents_part2</string>
+    <string name="send_to">Enviar con: </string>
+</resources>

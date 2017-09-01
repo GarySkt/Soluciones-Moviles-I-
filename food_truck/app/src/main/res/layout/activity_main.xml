@@ -26,48 +26,46 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="50dp" />
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/rb_sandwich"
-        tools:layout_editor_absoluteY="236dp"
-        tools:layout_editor_absoluteX="58dp"
-        android:layout_above="@+id/radioButton"
-        android:layout_alignStart="@+id/radioButton"
-        android:layout_marginBottom="16dp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="271dp" >
 
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/rb_salchipapa"
-        tools:layout_editor_absoluteY="316dp"
-        tools:layout_editor_absoluteX="58dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        <RadioButton
+            android:id="@+id/rb_sandwich"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:text="@string/rb_sandwich" />
 
-    <RadioButton
-        android:id="@+id/radioButton4"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:text="@string/rb_pizza" />
+        <RadioButton
+            android:id="@+id/rb_salchipapa"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="@string/rb_salchipapa" />
 
-    <RadioButton
-        android:id="@+id/radioButton5"
-        android:layout_width="133dp"
-        android:layout_height="wrap_content"
-        android:text="@string/rb_bebida" />
+        <RadioButton
+            android:id="@+id/rb_pizza"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:text="@string/rb_pizza" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
+        <RadioButton
+            android:id="@+id/rb_hotdog"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:text="@string/rb_hotdog" />
+
+        <RadioButton
+            android:id="@+id/rb_bebida"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:text="@string/rb_bebida" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_pedir"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="153dp"
-        android:text="@string/rb_hotdog"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="160dp" />
+        android:text="@string/btn_pedir" />
 
 </LinearLayout>

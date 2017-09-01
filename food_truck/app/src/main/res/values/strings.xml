@@ -6,4 +6,5 @@
     <string name="rb_pizza">Pizza</string>
     <string name="rb_bebida">Bebida</string>
     <string name="rb_hotdog">Hot Dog</string>
+    <string name="btn_pedir">Pedir</string>
 </resources>
