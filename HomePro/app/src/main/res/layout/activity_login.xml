@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bakcground"
+    tools:context="com.example.kichi.MaestroHP.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@drawable/logomaestro" />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="270dp"
+        card_view:cardElevation="40dp"
+        card_view:cardCornerRadius="25dp">
+
+        <EditText
+            android:id="@+id/TxtUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"            android:ems="10"
+            android:foreground="@android:color/background_dark"
+            android:gravity="center"
+            android:hint="Usuario"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textColorLink="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/TxtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/TxtUsuario"
+            android:layout_below="@+id/TxtUsuario"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textColorLink="@android:color/background_dark" />
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/BtnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/boton"
+        android:gravity="center"
+        android:text="Ingresar"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BtnConfirmarRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/BtnLogin"
+        android:layout_alignStart="@+id/BtnLogin"
+        android:layout_below="@+id/BtnLogin"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boton"
+        android:text="Registrarse"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kichi.MaestroHP.RegistroActivity">
+
+    <ImageView
+        android:id="@+id/imgRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/registro"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/BtnFoto"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/perfil1" />
+
+    <EditText
+        android:id="@+id/TxtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnFoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/TxtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TxtEmail"
+        android:layout_below="@+id/TxtEmail"
+        android:ems="10"
+        android:hint="Nombres"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/TxtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TxtNombre"
+        android:layout_below="@+id/TxtNombre"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/TxtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TxtApellido"
+        android:layout_below="@+id/TxtApellido"
+        android:ems="10"
+        android:hint="Numero Telefonico"
+        android:inputType="phone"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/TxtNuevaPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TxtTelefono"
+        android:layout_below="@+id/TxtTelefono"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/TxtDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TxtNuevaPassword"
+        android:layout_below="@+id/TxtNuevaPassword"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Direccion"
+        android:inputType="textPostalAddress"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/BtnConfirmarRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="35sp"
+        android:layout_below="@+id/TxtDireccion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/boton"
+        android:text="Confirmar"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/btngetlocation"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_above="@+id/BtnConfirmarRegistro"
+        android:layout_toEndOf="@+id/TxtDireccion"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/locationicon" />
+</RelativeLayout>
