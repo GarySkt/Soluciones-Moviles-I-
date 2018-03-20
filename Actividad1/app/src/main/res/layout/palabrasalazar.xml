@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cabezeraNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtNumero"
+        android:layout_below="@+id/txtAzar"
+        android:layout_marginTop="38dp"
+        android:text="Numero ingresado:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/cabeceraAzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtAzar"
+        android:layout_marginTop="20dp"
+        android:text="Texto al azar:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/txtAzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cabeceraAzar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:width="340dp"
+        android:height="230dp"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtAzar"
+        android:layout_alignTop="@+id/cabezeraNumero"
+        android:layout_marginTop="48dp"
+        android:width="340dp"
+        android:height="70dp"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

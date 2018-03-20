@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Actividad 1</string>
+    <string name="parrafo">Ingresar palabras a sortear:</string>
+    <string name="numero">Cantidad de palabras a mostrar:</string>
+</resources>
