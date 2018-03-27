@@ -1,0 +1,31 @@
+{
+  "tours": [
+    {
+      "titulo": "Universal Orlando® Resort",
+      "imagen" : "https://blog.universalorlando.com/wp-content/uploads/2016/01/Globe-and-Arches.jpg",
+      "url": "https://www.despegar.com.mx/actividades/d-UN_ORL/universal+orlando++resort-orlando?p=M1:1&currency=MXN",
+      "descripcion" :"¡Experimenta la diversión de dos espectaculares parques temáticos en Universal Orlando® Resort! Universal Studios Florida® y Universal’s Islands of Adventure® te esperan para que vivas una experiencia diferente.",
+      "personas": 2,
+      "dias": 14,
+      "precio": "$4800"
+      },
+    {
+      "titulo": "Tour a Isla Mujeres",
+      "imagen" : "http://www.thefirstclasscollection.com/cancun/new-hotel-images/fiesta-americana-coral-beach.jpg",
+      "url": "https://www.despegar.com.mx/actividades/d-PAM_CUN_8232/tour+a+isla+mujeres-cancun?p=M2:1&currency=MXN",
+      "descripcion" : "Disfruta de un día diferente al visitar Isla Mujeres, ¡un paraíso en la tierra y una de las mejores excursiones en Cancún! Navega a bordo de un catamarán en este tour de día completo, y disfruta del sol y el mar del Caribe mexicano. Además, anímate a bucear o realizar snorkel en uno de los más bellos arrecifes de coral del Caribe.",
+      "personas": 2,
+      "dias": 7,
+      "precio": "$718"
+    },
+    {
+      "titulo": "Walt Disney World",
+      "imagen" : "http://image.dhgate.com/albu_377970543_00/1.0x0.jpg",
+      "url": "https://www.despegar.com.mx/actividades/d-DY_ORL/walt+disney+world-orlando?p=M2:1&currency=MXN",
+      "descripcion" : "Encuentra en Walt Disney World un lugar dónde los cuentos de hadas se hacen realidad. ¡Este es el sitio donde reina la diversión y la magia! Con tus tickets podrás recorrer los cuatro parques de Disney: Magic Kingdom, Epcot, Disney’s Hollywood Studios y Disney’s Animal Kingdom, cuatro tierras donde encontrarás el encanto y las maravillas de Disney World en cada esquina.",
+      "personas": 1,
+      "dias": 14,
+      "precio": "$5953"
+    }
+  ]
+}
