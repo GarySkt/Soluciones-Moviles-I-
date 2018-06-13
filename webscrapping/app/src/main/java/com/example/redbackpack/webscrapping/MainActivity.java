@@ -6,12 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.EventLogTags;
 
 import org.jsoup.Jsoup;
 import org.jsoup.select.Elements;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -79,10 +76,10 @@ public class MainActivity extends AppCompatActivity {
 
             RecyclerView mRecyclerView = (RecyclerView)findViewById(R.id.act_recyclerview);
 
-            DataAdapter mDataAdapter = new DataAdapter(MainActivity.this, mBlogTitleList, mAuthorNameList, mBlogUploadDateList);
+            Adaptador mAdaptador = new Adaptador(MainActivity.this, mBlogTitleList, mAuthorNameList, mBlogUploadDateList);
             RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
             mRecyclerView.setLayoutManager(mLayoutManager);
-            mRecyclerView.setAdapter(mDataAdapter);
+            mRecyclerView.setAdapter(mAdaptador);
 
             mProgressDialog.dismiss();
         }

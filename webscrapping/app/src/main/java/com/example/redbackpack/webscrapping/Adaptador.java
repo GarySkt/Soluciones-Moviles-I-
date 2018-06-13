@@ -1,7 +1,6 @@
 package com.example.redbackpack.webscrapping;
 
 import android.app.Activity;
-import android.media.Image;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class DataAdapter extends RecyclerView.Adapter <DataAdapter.MyViewHolder>{
+public class Adaptador extends RecyclerView.Adapter <Adaptador.MyViewHolder>{
 
     private ArrayList<String> mBlogTitleList = new ArrayList<>();
     private ArrayList<String> mAuthorNameList = new ArrayList<>();
@@ -19,7 +18,7 @@ public class DataAdapter extends RecyclerView.Adapter <DataAdapter.MyViewHolder>
     private Activity mActivity;
     private int lastPosition = -1;
 
-    public DataAdapter(MainActivity activity, ArrayList<String> mBlogTitleList, ArrayList<String> mAuthorNameList, ArrayList<String> mBlogUploadDateList) {
+    public Adaptador(MainActivity activity, ArrayList<String> mBlogTitleList, ArrayList<String> mAuthorNameList, ArrayList<String> mBlogUploadDateList) {
         this.mActivity = activity;
         this.mBlogTitleList = mBlogTitleList;
         this.mAuthorNameList = mAuthorNameList;
